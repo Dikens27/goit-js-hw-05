@@ -1,11 +1,8 @@
-"use strict"
 
 
-const getUserNames = (users) => {
-  const names = users.map((user) => user.name);
-  
-  return names;
-}
+
+const getUserNames = (users) => users.map((user) => user.name);
+
 
 
 
